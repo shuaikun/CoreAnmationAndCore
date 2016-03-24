@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870F94F21CA37AB600695169 /* AnmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870F94F11CA37AB600695169 /* AnmationViewController.m */; };
+		870F94F41CA37CD600695169 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870F94F31CA37CD600695169 /* 1.jpg */; };
+		870F94F71CA3AFDB00695169 /* FangFaAnmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 870F94F61CA3AFDB00695169 /* FangFaAnmation.m */; };
 		97AA13311CA281FA00C17D19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AA13301CA281FA00C17D19 /* main.m */; };
 		97AA13341CA281FA00C17D19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AA13331CA281FA00C17D19 /* AppDelegate.m */; };
 		97AA13371CA281FA00C17D19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AA13361CA281FA00C17D19 /* ViewController.m */; };
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870F94F01CA37AB600695169 /* AnmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnmationViewController.h; sourceTree = "<group>"; };
+		870F94F11CA37AB600695169 /* AnmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnmationViewController.m; sourceTree = "<group>"; };
+		870F94F31CA37CD600695169 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		870F94F51CA3AFDB00695169 /* FangFaAnmation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FangFaAnmation.h; sourceTree = "<group>"; };
+		870F94F61CA3AFDB00695169 /* FangFaAnmation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FangFaAnmation.m; sourceTree = "<group>"; };
 		97AA132C1CA281FA00C17D19 /* CoreAnmationAndCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnmationAndCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97AA13301CA281FA00C17D19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97AA13321CA281FA00C17D19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 		97AA13231CA281FA00C17D19 = {
 			isa = PBXGroup;
 			children = (
+				870F94F31CA37CD600695169 /* 1.jpg */,
 				97AA132E1CA281FA00C17D19 /* CoreAnmationAndCore */,
 				97AA134B1CA281FA00C17D19 /* CoreAnmationAndCoreTests */,
 				97AA13561CA281FA00C17D19 /* CoreAnmationAndCoreUITests */,
@@ -107,6 +116,10 @@
 				97AA13331CA281FA00C17D19 /* AppDelegate.m */,
 				97AA13351CA281FA00C17D19 /* ViewController.h */,
 				97AA13361CA281FA00C17D19 /* ViewController.m */,
+				870F94F01CA37AB600695169 /* AnmationViewController.h */,
+				870F94F11CA37AB600695169 /* AnmationViewController.m */,
+				870F94F51CA3AFDB00695169 /* FangFaAnmation.h */,
+				870F94F61CA3AFDB00695169 /* FangFaAnmation.m */,
 				97AA13381CA281FA00C17D19 /* Main.storyboard */,
 				97AA133E1CA281FA00C17D19 /* Assets.xcassets */,
 				97AA13401CA281FA00C17D19 /* LaunchScreen.storyboard */,
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97AA13421CA281FA00C17D19 /* LaunchScreen.storyboard in Resources */,
+				870F94F41CA37CD600695169 /* 1.jpg in Resources */,
 				97AA133F1CA281FA00C17D19 /* Assets.xcassets in Resources */,
 				97AA133A1CA281FA00C17D19 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +293,8 @@
 				97AA133D1CA281FA00C17D19 /* CoreAnmationAndCore.xcdatamodeld in Sources */,
 				97AA13371CA281FA00C17D19 /* ViewController.m in Sources */,
 				97AA13341CA281FA00C17D19 /* AppDelegate.m in Sources */,
+				870F94F71CA3AFDB00695169 /* FangFaAnmation.m in Sources */,
+				870F94F21CA37AB600695169 /* AnmationViewController.m in Sources */,
 				97AA13311CA281FA00C17D19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				97AA135E1CA281FA00C17D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97AA135F1CA281FA00C17D19 /* Build configuration list for PBXNativeTarget "CoreAnmationAndCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				97AA13611CA281FA00C17D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97AA13621CA281FA00C17D19 /* Build configuration list for PBXNativeTarget "CoreAnmationAndCoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				97AA13641CA281FA00C17D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
